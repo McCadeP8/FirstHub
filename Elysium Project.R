@@ -1,2 +1,5 @@
-Deals <- read.csv("C:/Users/mppac/Downloads/Elysium Project/all-deals.csv")
-Contacts <- read.csv("C:/Users/mppac/Downloads/Elysium Project/all-contacts.csv")
+Deals <- read.csv("all-deals.csv")
+Contacts1 <- read.csv("contacts-part1.csv")
+Contacts2 <- read.csv("contacts-part2.csv")
+Contacts <- rbind(Contacts1,Contacts2)
+remove(Contacts1,Contacts2)
