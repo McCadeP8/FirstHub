@@ -1,2 +1,3 @@
 Deals <- read.csv("all-deals.csv")
-Contacts <- read.csv("all-contacts.csv")
+Contacts1 <- read.csv("contacts-part1.csv")
+Contacts2 <- read.csv("contacts-part2.csv")
