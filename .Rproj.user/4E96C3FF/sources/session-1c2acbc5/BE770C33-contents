@@ -1,0 +1,2 @@
+Deals <- read.csv("all-deals.csv")
+Contacts <- read.csv("all-contacts.csv")
